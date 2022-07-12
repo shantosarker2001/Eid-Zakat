@@ -1,0 +1,220 @@
+.container_full {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 10%;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: linear-gradient(rgba(222, 222, 222, 0.4), rgb(0, 0, 0, 0.8)), url("img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.center {
+    width: 50%;
+    padding: 12%;
+    color: white;
+    text-align: justify;
+}
+
+.top_text {
+    width: 50%;
+    color: rgb(31, 27, 27);
+    text-align: justify;
+    margin: 3% 20%;
+    text-align: center;
+}
+
+.top_text h2 {
+    font-size: 45px;
+    color: #2b2626;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-size: 17px;
+    color: #817d7d;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: tomato;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.center span {
+    color: rgb(245, 137, 13)
+}
+
+.wrapper {
+    display: flex;
+}
+
+.content,
+.content1 {
+    width: 48%;
+    margin: 3% 2%;
+}
+
+.content1:last-child {
+    margin-right: 0%;
+}
+
+.content1:first-child {
+    margin-left: 0%;
+}
+
+.img {
+    width: 47%;
+}
+
+.content h1 {
+    color: #2b2626;
+    text-align: center;
+    text-align: justify;
+}
+
+
+.main_img {
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.play_button {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 20%;
+    margin-top: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.content1 {
+    display: flex;
+    width: 50%;
+    background-color: #f1c0a6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content1 .left {
+    width: 15%;
+    margin-top: 20px;
+}
+
+.content1 .right {
+    width: 85%;
+    text-align: justify;
+}
+
+
+.charity1 {
+    width: 33%;
+    margin-right: 2%;
+
+
+}
+
+.charity1:last-child {
+    margin-right: 0%
+}
+
+.charity1 p {
+    text-align: justify;
+}
+
+.charity1 img {
+    width: 100%;
+    display: block;
+    ;
+}
+
+.fund_text {
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 2px solid rgb(194, 186, 186);
+    border-top: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px 10px;
+}
+
+.fund_text h4 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.fund_text a {
+    color: red;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.image1 {
+    width: 33%;
+    margin-right: 1%;
+    position: relative;
+    transition: 0.3s all ease;
+}
+
+.image1:last-child {
+    margin-right: 0;
+}
+
+.image1 img {
+    width: 100%;
+
+}
+
+.img_text {
+    position: absolute;
+    background-color: linear-gradient(white, gray, 0.6);
+    top: 50%;
+    color: white;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 49%;
+    display: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(128, 128, 128, 0.6));
+
+}
+
+.image1:hover .img_text {
+    display: block;
+}
+
+.image1 p {
+    color: white;
+}
