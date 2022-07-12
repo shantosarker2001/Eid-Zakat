@@ -16,7 +16,7 @@
 }
 
 .header {
-    background-image: linear-gradient(rgba(222, 222, 222, 0.4), rgb(0, 0, 0, 0.8)), url("img/background.png");
+    background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.4), rgb(0, 0, 0, 0.8)), url("img/background.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -57,11 +57,28 @@ p {
 .button {
     text-decoration: none;
     color: white;
+    border: 2px solid white;
     padding: 10px 15px;
     border-radius: 5px;
     background-color: tomato;
     margin-top: 20px;
     display: inline-block;
+    transition: 0.5s all ease;
+}
+
+.button:hover {
+    background: none;
+    border: 2px solid white;
+}
+
+.hover {
+    border: 2px solid white
+}
+
+.hover:hover {
+    background: none;
+    border: 2px solid black;
+    color: black;
 }
 
 .center span {
@@ -199,7 +216,7 @@ p {
     top: 50%;
     color: white;
     text-align: center;
-    background: rgb(0, 0, 0);
+
     /* Fallback color */
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -207,7 +224,7 @@ p {
     display: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(128, 128, 128, 0.6));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(66, 63, 63, 0.6));
 
 }
 
@@ -217,4 +234,25 @@ p {
 
 .image1 p {
     color: white;
+}
+
+.footer_text {
+    text-align: center;
+    color: #f54b0d;
+    font-size: 30px;
+
+}
+
+.gallery {
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: black;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+.container_full:last-child {
+    margin-bottom: 0%;
 }
